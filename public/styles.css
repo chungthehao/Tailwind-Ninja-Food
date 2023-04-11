@@ -526,6 +526,22 @@ video {
   margin-top: 2rem;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .border-b{
   border-bottom-width: 1px;
 }
@@ -561,10 +577,6 @@ video {
 
 .pb-2{
   padding-bottom: 0.5rem;
-}
-
-.font-mono{
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-body{
