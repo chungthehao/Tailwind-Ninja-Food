@@ -15,7 +15,7 @@
         <nav>
           <div>
             <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-              <a href="/" class="">Ninja Food</a>
+              <a href="/" class="hover:text-gray-700">Ninja Food</a>
             </h1>
           </div>
           <ul>
@@ -86,10 +86,14 @@
 
       <main class="px-16 py-6 bg-gray-100 col-span-2">
         <div class="flex justify-center md:justify-end">
-          <a href="#" class="btn text-primary md:border border-primary"
+          <a
+            href="#"
+            class="btn text-primary md:border border-primary hover:bg-primary hover:text-gray-50"
             >Log in</a
           >
-          <a href="#" class="btn text-primary ml-2 md:border border-primary"
+          <a
+            href="#"
+            class="btn text-primary ml-2 md:border border-primary hover:bg-primary hover:text-gray-50"
             >Sign up</a
           >
         </div>
@@ -105,7 +109,7 @@
           </h4>
           <!-- Cards Wrapper -->
           <div class="mt-8 grid lg:grid-cols-3 gap-10">
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="img/stew.jpg"
                 alt="Stew"
@@ -134,7 +138,7 @@
                 <span>25 mins</span>
               </div>
             </div>
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="img/noodles.jpg"
                 alt="Noodles"
@@ -163,7 +167,7 @@
                 <span>25 mins</span>
               </div>
             </div>
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="img/curry.jpg"
                 alt="Curry"
@@ -202,7 +206,11 @@
 
           <!-- Load more recipes -->
           <div class="flex justify-center">
-            <div class="btn bg-secondary-100 text-secondary-200">Load more</div>
+            <div
+              class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner"
+            >
+              Load more
+            </div>
           </div>
         </div>
       </main>
