@@ -570,6 +570,14 @@ video {
   width: 100%;
 }
 
+.w-6{
+  width: 1.5rem;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -830,12 +838,20 @@ video {
     display: grid;
   }
 
+  .md\:hidden{
+    display: none;
+  }
+
   .md\:justify-end{
     justify-content: flex-end;
   }
 
   .md\:border{
     border-width: 1px;
+  }
+
+  .md\:text-right{
+    text-align: right;
   }
 }
 
